@@ -1,0 +1,40 @@
+body {
+    padding: 20px;
+}
+
+.gallery-thumbs {
+    float: left;
+    width: calc(16% - 20px);
+    height: 280px;
+    margin-right: 20px;
+}
+
+.gallery-thumbs .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.gallery-thumbs .swiper-slide-active {
+    border: 1px solid grey;
+}
+
+.gallery-thumbs .swiper-slide:hover {
+    border: 1px solid grey;
+}
+
+.gallery-top {
+    float: right;
+    width: 84%;
+    height: 280px;
+}
+
+.gallery-top .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 1px solid grey;
+}

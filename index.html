@@ -5,35 +5,85 @@
     <title>Semen Sergeev</title>
 
     <link href="style.css" rel="stylesheet" type="text/css">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script defer src="js/jquery-3.6.0.min.js"></script>
+    <script defer src="js/bootstrap.min.js"></script>
 
 </head>
-<body>
+<body data-spy="scroll" data-target=".image-navigation" data-offset="50">
 
-<header id="header">
+<header id="header" class="fixed-top">
 
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Semen Sergeev</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="#">Semen Sergeev</a>
-
-        <div class="collapse navbar-collapse" id="navbarText">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ml-auto">
-
-                <li class="nav-item active">Main</li>
-                <li class="nav-item">Main</li>
-                <li class="nav-item">Main</li>
-                <li class="nav-item">Main</li>
-                <li class="nav-item">Main</li>
-
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
             </ul>
         </div>
     </nav>
 
 
 </header>
-<script src="js/bootstrap.js"></script>
+
+<div class="container ">
+<div class="row">
+    <div class="left-side-bar col-1">
+        block-left
+    </div>
+<div class="main-content col-9">
+    <div id="n0" class="upper-text">An American Mile - Jun 2017 - March 2018
+
+Driven by a strong fascination with rural life, especially in the American West, in 2017 I spent 256 days travelling across the United States, exploring the small towns and backroads that are strewn across its vast landscape. I quickly became consumed by these “places in between” and the contradictory images they evoked when compared to mainstream thoughts and beliefs.
+
+
+Not dissimilar from other places around the world, the further I strayed from the population centres, the quicker the environment changed. It was in these towns and landscapes that I found signs of the past that provided a sobering reminder of both the speed at which time moves and the unpredictability of the future.
+
+
+As an Artist, it’s not just the subjects, light, and colour found in these spaces that interests me, but also the process of documenting a landscape that is in a constant cycle of change.
+
+
+The following images are a selection from a larger series titled “An American Mile”. This collection will be available as a forthcoming publication, with select images also available as limited edition print runs. Please inquire for more information.
+</div>
+    <div class="main-image-gallery">
+        <div class="gallery-item" id="n1">
+            <img src="/img/g1.jpg">
+        </div>
+        <div class="gallery-item" id="n2">
+            <img src="/img/g2.jpg" class="img-fluid">
+        </div>
+        <div class="gallery-item" id="n3">
+            <img src="/img/g3.jpg">
+        </div>
+    </div>
+
+</div>
+<div class="right-side-bar col-1">
+    block-right
+</div>
+
+
+
+</div>
+</div>
+
+
+
+
 
 
 

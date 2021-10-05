@@ -1,24 +1,37 @@
 #header {
     width: 100%;
-    position: fixed;
+
+}
+.main-content {
+
+    margin-top: 100px;
 }
 
-.header-menu {
+.upper-text {
+    max-width: 30em;
+    margin: 0 auto;
+}
+
+.main-image-gallery {
+    max-width: 544px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.gallery-item {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+img {
+    max-width: 544px;
+    max-height: 408px;
+}
+
+.image-navigation {
+
+    position: fixed;
 
     text-align: right;
 }
 
-.header-logo {
-    font-size: 1em;
-
-}
-
-.header-menu-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.header-menu-list > li {
-    display: inline-block;
-}
