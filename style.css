@@ -2,9 +2,12 @@
     width: 100%;
 
 }
-.main-content {
 
-    margin-top: 100px;
+.main-content {
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 100px;
+    vertical-align: middle;
 }
 
 .upper-text {
@@ -13,9 +16,7 @@
 }
 
 .main-image-gallery {
-    max-width: 544px;
-    margin: 0 auto;
-    padding-top: 100px;
+
 }
 
 .gallery-item {
@@ -23,15 +24,10 @@
     margin-bottom: 50px;
 }
 
-img {
-    max-width: 544px;
-    max-height: 408px;
+.item-center {
+        display: flex;
+        align-items: center;
+        height: 100vh;
 }
 
-.image-navigation {
-
-    position: fixed;
-
-    text-align: right;
-}
 
